@@ -3,3 +3,20 @@
     top: 0;
     padding: 30px 20px;
 }
+.btn{
+    padding: 8px 20px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: none;
+    margin: 0 5px;
+}
+
+.btn-primary {
+    background: #0000ffa6;
+    color: white;
+}
+
+.btn-danger {
+    background: #ff000094;
+    color: white;
+}
