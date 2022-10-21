@@ -8,7 +8,7 @@ const Header = () => {
   const { user, logOut, setUser } = useContext(AuthContext);
   const logoutHandler = () => {
     logOut().then((result) => {
-      setUser({});
+      setUser(null);
       console.log("LogOut Success");
     });
   };
